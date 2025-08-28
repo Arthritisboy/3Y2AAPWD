@@ -6,10 +6,14 @@ module.exports = {
     [
       '@semantic-release/github',
       {
-        // Disable creating issues on fail
+        // Disable creating issues or comments on fail/success
         successComment: false,
         failComment: false,
-        failTitle: false
+        failTitle: false,
+        // Attach the APK artifact from CI build
+        assets: [
+          { path: 'frontend/build/app/outputs/flutter-apk/app-release.apk', label: 'APK' }
+        ]
       }
     ]
   ],
