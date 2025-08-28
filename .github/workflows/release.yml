@@ -94,19 +94,18 @@ jobs:
           node-version: 20
           cache: 'npm'
 
+      # ✅ Install dependencies right before semantic-release
+      - name: Install Node.js dependencies
+        run: npm install
+
+      - name: Download APK artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: app-release-apk
+          path: frontend/build/app/outputs/flutter-apk/
+
       # ✅ Semantic Release
       - name: Semantic Release
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Use a Personal Access Token with repo & workflow permissions
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Personal Access Token with repo permissions
         run: npx semantic-release
-
-      # ✅ Upload APK to GitHub Release (semantic-release can already create the release, optional)
-      - name: Upload APK to GitHub Release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-        with:
-          upload_url: ${{ steps.semantic_release.outputs.upload_url || github.event.release.upload_url }}
-          asset_path: frontend/build/app/outputs/flutter-apk/app-release.apk
-          asset_name: app-release.apk
-          asset_content_type: application/vnd.android.package-archive
