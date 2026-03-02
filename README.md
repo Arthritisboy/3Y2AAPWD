@@ -164,4 +164,4 @@ Thank you for supporting **AccessAbility** – empowering mobility through techn
 ---
 
 # 💙 AccessAbility  
-### Making Navigation Accessible for Everyone 🚀
+### Making Navigation Accessible for Everyone 
