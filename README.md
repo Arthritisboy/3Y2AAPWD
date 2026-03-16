@@ -5,6 +5,18 @@
 
 ---
 
+## 👨‍💻 Development Team – Avengers
+
+- 👨‍💼 **Ang, Jaydeebryann E. – Project Manager**
+- 🔧 **Flores, Lance Kian F. – Fullstack Developer**  
+- 🔧 **Centino, Jem Harold S. – Frontend Developer and UI/UX Designer**  
+- 🔧 **Reyes, Christer Dale M. – Backend Developer**
+- 🎨 **Borje, Janylle A. – UI/UX Designer**  
+
+<img src="frontend/assets/images/others/avengers-team.jpg" alt="Team Photo" width="600" height="auto"/>
+
+---
+
 ## 📱 About the Project
 
 **AccessAbility** is a GPS-based mobile application developed to assist Persons with Disabilities (PWDs) in navigating Dagupan City more efficiently and safely.
@@ -136,15 +148,6 @@ This project follows the **Agile Development Methodology**, allowing iterative i
 
 ---
 
-## 👨‍💻 Development Team – Avengers
-
-- 👨‍💼 **Ang, Jaydeebryann E. – Project Manager**
-- 🔧 **Flores, Lance Kian F. – Fullstack Developer**  
-- 🔧 **Centino, Jem Harold S. – Frontend Developer and UI/UX Designer**  
-- 🔧 **Reyes, Christer Dale M. – Backend Developer**
-- 🎨 **Borje, Janylle A. – UI/UX Designer**  
-
----
 
 ## 💡 Significance of the Study
 
