@@ -166,5 +166,6 @@ Thank you for supporting **AccessAbility** – empowering mobility through techn
 
 ---
 
-# 💙 AccessAbility  
-### Making Navigation Accessible for Everyone 
+## License 📝
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
