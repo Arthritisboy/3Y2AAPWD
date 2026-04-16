@@ -158,11 +158,6 @@ This project follows the **Agile Development Methodology**, allowing iterative i
 - Raises awareness of accessibility challenges  
 - Promotes a more inclusive and accessible society  
 
----
-
-## 🙏 Acknowledgment
-
-Thank you for supporting **AccessAbility** – empowering mobility through technology.
 
 ---
 
